@@ -28,7 +28,7 @@ The following diagrams illustrate the core features of Qubes OS’s architecture
 
 |Glance_Windows|
 
-.. |Glance_Illusion_of_Isolation| image:: /attachment/doc/Glance_Achieving_Sovereignty.png
+.. |Glance_Achieving_Sovereignty| image:: /attachment/doc/Glance_Achieving_Sovereignty.png
 
 .. |Glance_Building| image:: /attachment/doc/Glance_Building.png
 
