@@ -2,7 +2,7 @@
 Qubes OS Security Overview
 ==========================
 
-This document gives an overview on the architecture of Qubes OS, an operating system that replaces traditional security models with the principle of isolation through compartmentalization. Since software errors are inevitable, the system does not attempt to guarantee perfect error-free operation, but instead focuses on containing potential compromises by isolating digital activities in separate virtual machines, known as ":term:qube". The text describes in detail the technical basis of the Xen hypervisor and specialized features such as disposable VMs and hardware-based isolation to prevent horizontal propagation of attacks. The aim of the text is to show IT professionals how this “assume the breach” approach offers superior resilience for high-risk environments compared to monolithic systems such as Windows or macOS.
+This document gives an overview on the architecture of Qubes OS, an operating system that replaces traditional security models with the principle of isolation through compartmentalization. Since software errors are inevitable, the system does not attempt to guarantee perfect error-free operation, but instead focuses on containing potential compromises by isolating digital activities in separate virtual machines, known as ":term:qube". The text describes in detail the technical basis of the Xen hypervisor and specialized features such as disposable VMs and hardware-based isolation to prevent horizontal propagation of attacks. The aim of the text is to show IT professionals how this "assume the breach" approach offers superior resilience for high-risk environments compared to monolithic systems such as Windows or macOS.
 
 The diagrams shown here were created using the AI tool Gemini Notebook, but were manually changed afterwards in order to correct any errors and improve their readability.
 
@@ -17,7 +17,7 @@ The monolithic vulnerability
 ============================
 |Security_Architecture_02|
 
-Qubes OS introduces a fundamentally different security model to address this problem. It is a security-focused operating system designed from the ground up to counter the inherent weaknesses of monolithic architectures. Its core concept is **Security by Compartmentalization**, which organizes a user's digital life into securely isolated compartments called "qubes." In practice, this functions as if a user has many different computers for different activities, all conveniently managed on a single physical machine. If one qube is compromised, the damage is contained within that compartment, leaving all other qubes-and the system as a whole-unaffected.
+Qubes OS introduces a fundamentally different security model to address this problem. It is a security-focused operating system designed from the ground up to counter the inherent weaknesses of monolithic architectures. Its core concept is **security by compartmentalization**, which organizes a user's digital life into securely isolated compartments called ":term:qube". In practice, this functions as if a user has many different computers for different activities, all conveniently managed on a single physical machine. If one qube is compromised, the damage is contained within that compartment, leaving all other qubes-and the system as a whole-unaffected.
 
 The solution: compartmentalization
 ==================================
