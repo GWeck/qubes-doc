@@ -51,7 +51,7 @@ Qubes OS releases are supported for **six months** after each subsequent major o
    * - Release 4.2
      - 2023-12-18
      - 2026-06-21
-     - Supported
+     - Unsupported
    * - Release 4.3
      - 2025-12-21
      - TBD
@@ -119,12 +119,9 @@ It is the responsibility of each distribution to clearly notify its users in adv
    * - Qubes OS
      - Fedora
      - Debian
-   * - Release 4.2
-     - 43
-     - 12, 13
    * - Release 4.3
-     - 43
-     - 12, 13
+     - 43, 44
+     - 13
 
 
 Note on Debian support
