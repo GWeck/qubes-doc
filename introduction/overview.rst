@@ -10,7 +10,7 @@ This is exactly how most computers work. A single wrong action - opening an emai
 
 For instance, a vulnerability in a Bluetooth driver on a standard Linux or Windows system can allow an attacker to read memory from an unrelated application such as a browser or a password manager.
 
-Qubes OS represents not an incremental improvement but a paradigm shift in endpoint security. Its architecture is built on the core principle of "security by compartmentalization." This philosophy moves beyond the flawed pursuit of perfect prevention and instead accepts the inevitability of successful attacks. Its primary goal is to contain and mitigate the impact of a breach, ensuring that the compromise of one component does not compromise the entire system.
+Qubes OS represents not an incremental improvement but a paradigm shift in endpoint security. Its architecture is built on the core principle of "security by compartmentalization". This philosophy moves beyond the flawed pursuit of perfect prevention and instead accepts the inevitability of successful attacks. Its primary goal is to contain and mitigate the impact of a breach, ensuring that the compromise of one component does not compromise the entire system.
 
 The following diagrams illustrate the core features of Qubes OS’s architecture in alignment with the introductory chapters of the documentation. (The graphics of these diagrams were created using the AI tool Gemini Notebook, but the resulting diagrams were manually changed afterwards in order to correct any errors and improve readability.)
 
