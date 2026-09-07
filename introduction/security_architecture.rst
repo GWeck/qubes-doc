@@ -83,7 +83,7 @@ The building blocks: qube types and functions
 
 The user's digital life is organized into various types of qubes, each with a specific function and role within the system's security architecture.
 
-- **App qubes:** :term:`app qube`These are the standard compartments where users run their applications. A typical user might have qubes named work, personal, banking, and untrusted, each isolating the applications and data related to that specific context from all others.
+- **App qubes:** :term:`app qube` These are the standard compartments where users run their applications. A typical user might have qubes named work, personal, banking, and untrusted, each isolating the applications and data related to that specific context from all others.
 
 - **Template system:** :term:`template` Qubes OS features an innovative system where App Qubes are each based on a read-only template. An app qube shares the root filesystem of its parent template, meaning software only needs to be installed once. This provides two key benefits: it saves a significant amount of disk space, and it centralizes software updates, allowing an administrator to patch dozens of App Qubes by updating a single template.
 
