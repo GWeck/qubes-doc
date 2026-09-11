@@ -1,8 +1,8 @@
 ==========================
-Qubes OS Security Overview
+Qubes OS security overview
 ==========================
 
-This document gives an overview on the architecture of Qubes OS, an operating system that replaces traditional security models with the principle of isolation through compartmentalization. Since software errors are inevitable, the system does not attempt to guarantee perfect error-free operation, but instead focuses on containing potential compromises by isolating digital activities in separate virtual machines, known as :term:`qube`. The text describes in detail the technical basis of the Xen hypervisor and specialized features such as disposable VMs and hardware-based isolation to prevent horizontal propagation of attacks. The aim of the text is to show IT professionals how this "assume the breach" approach offers superior resilience for high-risk environments compared to monolithic systems such as Windows or macOS.
+This document gives an overview of the architecture of Qubes OS, an operating system that replaces traditional security models with the principle of isolation through compartmentalization. Since software errors are inevitable, the system does not attempt to guarantee perfect error-free operation, but instead focuses on containing potential compromises by isolating digital activities in separate virtual machines, known as :term:`qube`. The text describes in detail the technical basis of the Xen hypervisor and specialized features such as disposable VMs and hardware-based isolation to prevent horizontal propagation of attacks. The aim of the text is to show IT professionals how this "assume the breach" approach offers superior resilience for high-risk environments compared to monolithic systems such as Windows or macOS.
 
 The diagrams shown here were created using the AI tool Gemini Notebook, but were manually changed afterwards in order to correct any errors and improve their readability.
 
